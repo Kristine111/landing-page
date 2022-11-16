@@ -1,0 +1,19 @@
+html {
+    display: flex;
+    background-color:/*black;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;/*revisit this code if necessary*/
+    margin: 0 250px;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1f2737;
+    color: white;
+    justify-content: center;
+/* HEY DUM DUM DONT FORGET TO LINK THE STYLESHEET TO THE HTML FILE*/
+}
