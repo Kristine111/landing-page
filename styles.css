@@ -1,19 +1,53 @@
 html {
     display: flex;
-    background-color:/*black;*/
+    background-color:black
 }
 
 body {
     display: flex;
     flex-direction: column;/*revisit this code if necessary*/
+    background-color: lightgrey;
     margin: 0 250px;
+    padding: 0px 10px;/*revisit this code if necessary*/
+    color: white;/*revisit this code if necessary*/
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2737;
 
+}
+.middle {
+    background-color: white;
+    color: black;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 100px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .footer {
     display: flex;
     background-color: #1f2737;
     color: white;
     justify-content: center;
-/* HEY DUM DUM DONT FORGET TO LINK THE STYLESHEET TO THE HTML FILE*/
+    font-family: 'Courier New', Courier, monospace;
 }
