@@ -5,10 +5,10 @@ html {
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;/*revisit this code if necessary*/
     background-color: lightgrey;
-    margin: 0 250px;
-    padding: 0px 10px;/*revisit this code if necessary*/
+    margin: /* 0 250px; revisit this code if necessary*/
     color: white;/*revisit this code if necessary*/
 }
 
@@ -29,8 +29,24 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1f2737;
-
+    padding: 0px 50px;
 }
+
+.header p{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.intro{
+    background-color: #1f2737;
+    color: white;
+    display: flex;
+    padding: 50px 50px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 .middle {
     background-color: white;
     color: black;
@@ -56,5 +72,4 @@ a {
     background-color: #1f2737;
     color: white;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
 }
