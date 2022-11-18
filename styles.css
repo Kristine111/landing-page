@@ -1,28 +1,29 @@
-html {
+/*html {
     display: flex;
     background-color:black
-}
+}*/
 
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;/*revisit this code if necessary*/
     background-color: lightgrey;
-    margin: /* 0 250px; revisit this code if necessary*/
-    color: white;/*revisit this code if necessary*/
+    margin: 0;/*revisit this code if necessary*/
+    color: white; /*revisit this code if necessary*/
 }
 
 ul {
     list-style: none;
     display: flex;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     margin: 0;
     padding: 0;
     align-items: center;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
     padding: 0 15px;
 }
 .header {
@@ -33,9 +34,23 @@ a {
 }
 
 .header p{
-    color: white;
+    color: #f9faf8;;
     font-size: 24px;
     font-weight: bolder;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main{     
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .intro{
