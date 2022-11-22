@@ -78,6 +78,10 @@ a {
 
 .illustration {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
 
 }
 
