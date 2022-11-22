@@ -40,17 +40,22 @@ a {
 }
 .content {
     display: flex;
+    flex-shrink: ;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 .main{     
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #F9FAF8;
+}
+
+.secondary {
+    display: flex;
+    color: #E5E7EB;
 }
 
 .intro{
@@ -65,6 +70,15 @@ a {
 .middle {
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    display: flex;
+
 }
 
 .quote {
