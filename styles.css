@@ -2,7 +2,6 @@ body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;/*revisit this code if necessary*/
-    background-color: lightgrey;
     margin: 0;/*revisit this code if necessary*/
     color: white; /*revisit this code if necessary*/
 }
@@ -99,7 +98,21 @@ a {
 }
 
 .container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    margin: 100px 200px;
     
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 3px solid white;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-color: white;
 }
 
 .footer {
