@@ -64,7 +64,7 @@ a {
 
 .middle {
     background-color: white;
-    color: black;
+    color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,13 +73,11 @@ a {
 
 .four-pics {
     display: flex;
-    flex-shrink: 2;
 }
 
 .illustration {
     height: auto;
     width: 100px;
-
 }
 
 .quote {
@@ -102,4 +100,5 @@ a {
     background-color: #1f2737;
     color: white;
     justify-content: center;
+    padding: 50px;
 }
