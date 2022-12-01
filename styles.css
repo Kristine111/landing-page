@@ -65,10 +65,17 @@ a {
 .middle {
     background-color: white;
     color: #1F2937;
+    margin: 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
 }
 
 .four-pics {
