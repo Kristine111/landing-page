@@ -66,9 +66,9 @@ a {
     background-color: white;
     color: #1F2937;
     margin: 50px 50px;
+    padding: 0px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -80,13 +80,16 @@ a {
 
 .four-pics {
     display: flex;
+    padding: ;
 }
 
 .illustration {
     height: auto;
-    width: 100px;
+    width: 150px;
     border-radius: 10px;
     border: 3px solid #3882f6;
+    margin: 0px 50px;
+    justify-content: center;
 }
 
 .quote {
