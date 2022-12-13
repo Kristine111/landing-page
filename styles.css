@@ -76,11 +76,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     margin-bottom: 50px;
-}
-
-.four-pics {
-    display: flex;
-    padding: ;
+    
 }
 
 .illustration {
@@ -91,20 +87,26 @@ a {
     margin: 0px 50px;
 }
 
+.subtext {
+    text-align: center; 
+}
+
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    padding: 100px 100px;
+    padding: 100px 250px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .signature {
     display: flex;
-    font-size: 18px;
+    font-size: 28px;
+    font-style: normal;
     justify-content: flex-end;
     font-weight: bold;
-
+    margin-bottom: 0px;
 }
 
 .container {
@@ -113,7 +115,16 @@ a {
     border-radius: 5px;
     padding: 50px 100px;
     margin: 100px 200px;
-    
+    align-items: center;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    margin-top: 0px;
 }
 
 button {
